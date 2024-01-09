@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 25%;
+    height: 50vh;
+    background-color: #cfb9dd;
+    border-radius: 10px;
+    padding-top: 2vw;
+}
+
+.container h2 {
+    padding-top: 1vw;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form .input-fields {
+    margin-top: 2vw;
+    width: 80%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    width: 100%;
+    /* background-color: red;s */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+form .input-fields input{
+    max-width: 100%;
+    height: 9vh;
+    text-align: center;
+    border-radius:5px;
+    outline: none;
+    border: transparent;
+    font-size: 1.3vw;
+}
+
+form .input-fields input:hover {
+    border: 2px solid #000;
+}
+
+.button {
+    text-align: center;
+    margin-top: 2vw;
+    width: 60%;
+    min-height: 7vh;
+    border-radius: 10px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    font-weight: 900;
+    background-color: #FFCD4B;
+    cursor: pointer;
+}
+
+form .button:hover {
+    background-color: #F4CE14;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}

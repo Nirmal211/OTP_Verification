@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OTP Verification</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>enter your 4 digit otp</h2>
+        <form action="#">
+            <div onclick="generateOtp()" class="button gtpBtn">GENERATE OTP</div>
+            <div class="input-fields">
+                <label for="otpVerification">
+            <input  type="number" placeholder="Enter the Otp" id="otpVerification">
+        </label>
+        </div>
+            <div onclick="validOtp()"  class="button">Verify OTP</div>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
